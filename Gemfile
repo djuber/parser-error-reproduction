@@ -55,7 +55,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "i18n-tasks", "~> 1.0"
 
-gem "pry", "~> 0.14.1"
 
 gem "rspec", "~> 3.11"
 
