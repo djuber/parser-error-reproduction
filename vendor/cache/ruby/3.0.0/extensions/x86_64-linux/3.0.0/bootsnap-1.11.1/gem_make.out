@@ -1,0 +1,15 @@
+current directory: /home/djuber/reproduction/vendor/cache/ruby/3.0.0/gems/bootsnap-1.11.1/ext/bootsnap
+/home/djuber/.rbenv/versions/3.0.2/bin/ruby -I /home/djuber/.rbenv/versions/3.0.2/lib/ruby/3.0.0 -r ./siteconf20220325-1411356-rzacnf.rb extconf.rb
+creating Makefile
+
+current directory: /home/djuber/reproduction/vendor/cache/ruby/3.0.0/gems/bootsnap-1.11.1/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /home/djuber/reproduction/vendor/cache/ruby/3.0.0/gems/bootsnap-1.11.1/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/djuber/reproduction/vendor/cache/ruby/3.0.0/gems/bootsnap-1.11.1/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20220325-1411356-5z6t4d/bootsnap

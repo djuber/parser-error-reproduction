@@ -1,0 +1,15 @@
+current directory: /home/djuber/reproduction/vendor/cache/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+/home/djuber/.rbenv/versions/3.0.2/bin/ruby -I /home/djuber/.rbenv/versions/3.0.2/lib/ruby/3.0.0 -r ./siteconf20220325-1411356-4xopq7.rb extconf.rb
+creating Makefile
+
+current directory: /home/djuber/reproduction/vendor/cache/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= clean
+
+current directory: /home/djuber/reproduction/vendor/cache/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\=
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/djuber/reproduction/vendor/cache/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20220325-1411356-10eyvg/skiptrace/internal
